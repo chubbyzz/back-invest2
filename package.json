@@ -1,0 +1,27 @@
+{
+  "name": "invest",
+  "version": "1.0.0",
+  "description": "Api invest",
+  "main": "index.js",
+  "author": "jeffs",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "pg": "^7.12.1",
+    "sequelize": "^5.15.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.1.0"
+  }
+}
